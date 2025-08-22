@@ -37,9 +37,9 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Книга:" +
-                "===Название - '" + title + '\'' +
-                "===Автор" + author + '\'' +
-                "===Число доступных копий" + availableCopies;
+        return "Книга:" + "\n" +
+                "=== Название - '" + title + "\n" +
+                "=== Автор - " + author + "\n" +
+                "=== Число доступных копий - " + availableCopies + "\n";
     }
 }
